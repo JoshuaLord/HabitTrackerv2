@@ -1,0 +1,21 @@
+import React from 'react';
+
+function Decorator() {
+    return (
+      <div id="decorator">
+        <h2>Name</h2>
+        <h5>Type</h5>
+
+        <p><strong>Description</strong></p>
+        <p></p>
+        
+        <p><strong>Case Studies</strong></p>
+        <ul></ul>
+
+        <p><strong>Drawbacks</strong></p>
+        <ul></ul>
+      </div>
+    );
+}
+ 
+export default Decorator;
